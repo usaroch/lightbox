@@ -1,0 +1,72 @@
+body{
+  background: #f4f7f6;
+}
+
+.gallery{
+  background: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.gallery h1{
+  font-weight: 200;
+  font-size: 42px;
+  color: #333;
+  text-align: center;
+}
+
+.gallery .thumbnail{
+  text-align: center;
+  color: #666;
+  cursor: pointer;
+  margin: 10px 0 12px;;
+}
+
+.lightbox {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right:  0;
+  background: #282c34ee
+}
+
+.lightbox figure{
+  text-align: center;
+}
+
+.lightbox figcaption{
+  color: #cccccc;
+  margin: 10px 16px;
+}
+
+.lightbox .nextButton,
+.lightbox .prevButton,
+.lightbox .closeButton {
+  position: absolute;
+  color: #ccc;
+  background: none;
+  border: 0 none;
+  cursor: pointer;
+  padding: 20px;
+  font-size: 32px;
+}
+
+.lightbox .nextButton,
+.lightbox .prevButton {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.lightbox .nextButton,
+.lightbox .closeButton {
+  right: 16px;
+}
+
+.lightbox .prevButton {
+  left: 16px;
+}
+
+.lightbox .closeButton {
+  top: 10px;
+}
